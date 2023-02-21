@@ -12,8 +12,8 @@ public class BankBST {
 		
 		 Menu(test);
 		 
-		 test.AccountListBST.search("Ryan Mendoza");
-		 test.AccountBST.search("111");
+		 test.AccountListBST.inorder();
+		 test.AccountBST.inorder();
 		 
 	 }
 	 
@@ -25,11 +25,11 @@ public class BankBST {
          while(selection != 3) {
         	 if(selection == 1) {
         		 System.out.print("Enter the accountID: ");
-        		 String account = input.nextLine();
+        		 String account = input.next();
         		 bank.AccountBST.search(account);
          	}
         	if(selection == 2) {
-        		 System.out.print("Enter the name on the account: \n");
+        		 System.out.print("Enter the name on the account: ");
         		 String name = input.nextLine();
         		 bank.AccountListBST.search(name);
          	}

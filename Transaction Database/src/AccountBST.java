@@ -121,7 +121,7 @@ public class AccountBST<E extends Comparable<E>>{
     	
     	// print out the BST node element on a new line
         System.out.println(t.element + " ");
-        TransactionsNode<Transaction> artRec = root.head; // Then like the inOrder printing we start printing out articles starting at the head of the linked list
+        TransactionsNode<Transaction> artRec = t.head; // Then like the inOrder printing we start printing out articles starting at the head of the linked list
         System.out.println("\t"); // indenting to make sure they look nice
         // This while loop iterates through the linked list until it hits the tail which will be set to NULL
         while(artRec != null){

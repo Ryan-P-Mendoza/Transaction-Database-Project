@@ -19,7 +19,7 @@ public class Transaction {
 	 
 	 
 	 public String toString(){
-	        return String.format("\t %s -- %s(%s) --> %s(%s) | %.2f \n", date,senderName, senderID,receiverName,receiverID,amount);
+	        return String.format("\t %s -- %s(%s) --> %s(%s) | $%.2f \n", date,senderName, senderID,receiverName,receiverID,amount);
 	 }
 	
 	
