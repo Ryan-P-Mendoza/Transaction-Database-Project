@@ -12,7 +12,7 @@ public class TreeNode<E> {
     public void addFirst(Transaction a){
     	TransactionsNode<Transaction> newNode = new TransactionsNode<>(a); // create the new linked list node
         newNode.next = head; // link this node to where the head is pointing to/next node
-        head = newNode; // set the head to this new node
+        head = newNode; 
     }
     
 }

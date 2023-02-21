@@ -2,7 +2,7 @@ public class AccountListBST<E extends Comparable<E>>{
    
 	
 	protected AccountNode<E> root; // create the root of the BST
-    protected int size = 0; // set the size of the BST to 0
+    protected int size = 0; 
 
     public AccountListBST() {
     }

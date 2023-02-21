@@ -8,7 +8,7 @@ public class TransactionsNode<E> {
 		 element = e;
 	 }
 	    
-	    // convert it toString 
+	    
 	 public String toString(){
 		 return "" + element;
 	 }

@@ -5,7 +5,7 @@ public class BankBST {
 
 	 BufferedReader fileReader; // using buffered reader we create fileReader
 	 AccountBST<String> AccountBST;
-	 AccountListBST<String> AccountListBST;// we create a BST
+	 AccountListBST<String> AccountListBST;
 	 
 	 public static void main(String[] args) {
 		 BankBST test = new BankBST("transactions.txt");

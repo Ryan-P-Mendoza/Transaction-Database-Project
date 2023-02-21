@@ -13,6 +13,6 @@ public class AccountNode<E> {
     public void addFirst(Account a){
     	AccountsNode<Account> newNode = new AccountsNode<>(a); // create the new linked list node
         newNode.next = head; // link this node to where the head is pointing to/next node
-        head = newNode; // set the head to this new node
+        head = newNode; 
     }
 }
