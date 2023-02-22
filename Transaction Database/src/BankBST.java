@@ -21,11 +21,11 @@ public class BankBST {
 		 Scanner input = new Scanner(System.in);
 		 System.out.println("Welcome to bank database!");
          System.out.println("Please make a selection: (1) View Account Transactions (2) AccountID finder (3) Exit");
-         int selection = input.nextInt();
+         int selection = Integer.parseInt(input.nextLine());
          while(selection != 3) {
         	 if(selection == 1) {
         		 System.out.print("Enter the accountID: ");
-        		 String account = input.next();
+        		 String account = input.nextLine();
         		 bank.AccountBST.search(account);
          	}
         	if(selection == 2) {
@@ -34,7 +34,7 @@ public class BankBST {
         		 bank.AccountListBST.search(name);
          	}
         	System.out.println("Please make a selection: (1) View Account Transactions (2) AccountID finder (3) Exit");
-        	selection = input.nextInt();
+        	selection = Integer.parseInt(input.nextLine());
          }
 		 
 	 }
